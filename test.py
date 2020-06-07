@@ -1,0 +1,11 @@
+val = input("Enter your value: ") 
+print(val) 
+
+f=open("aaa.csv","w")
+f.write("ajksd,")
+f.write("jkasdlaskdfasdfasdf,")
+f.write("lkjyhkj\n")
+f.write("ajksd,")
+f.write("jkasdlaskdfasdfasdf,")
+f.write("lkjyhkj\n")
+f.close()
